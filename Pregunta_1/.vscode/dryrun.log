@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/eycer/Documents/Lenguajes de Programacion/examen_3/Pregunta_1'
+make: Leaving directory '/home/eycer/Documents/Lenguajes de Programacion/examen_3/Pregunta_1'
+ 
+make: *** No targets.  Stop.
+
