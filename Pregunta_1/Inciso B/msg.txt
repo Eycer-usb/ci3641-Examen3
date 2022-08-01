@@ -1,6 +1,8 @@
-PREGUNTA 1 INCISO B.i 
+
+PREGUNTA 1 INCISO B
+
 A Continuacion se compilara la libreria que contiene 
-la clase cola y pila
+la clase cola, pila, grafo, busqueda, DFS y BFS
 Ademas se compilara el archivo client/main.kt
 que servira como programa de pruebas de la libreria
 

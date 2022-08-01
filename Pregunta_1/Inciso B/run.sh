@@ -7,6 +7,7 @@ cd lib/
 make clean
 cd ../client
 make clean
+# cd client
 make
 kotlin -cp ../lib/lib.jar:. MainKt
 
