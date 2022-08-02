@@ -69,7 +69,13 @@ def crear_clase_simple(secciones, memoria):
     if nombre in memoria:
         print("Ya existe una clase con ese nombre")
     else:
-        memoria[nombre] = [ [ i, nombre ] for i in secciones[1:] ]
+        metodos = [ [ i, nombre ] for i in secciones[1:] ]
+        # Eliminamos repetidos y almacenamos en memoria
+        aux = []
+        for i in metodos:
+            if not i in aux:
+                aux.append(i)
+        memoria[nombre] = aux
 
 
 """
