@@ -124,9 +124,6 @@ def ejecutar_consulta( nombre, argumentos):
 
         
 
-    for i in range(len(variables)):
-        
-            
             
 
 """
