@@ -112,15 +112,15 @@ def ejecutar_consulta( nombre, argumentos):
         else:
             tupla[i] = args[i]
     
-    
 
-    if( nombre in reglas ):
-        lista = reglas[nombre]
-        for i in lista:
-            n = len(i)
-            for j in range(n):
-                if tupla[j] != False and tupla[j] == :
-                    tupla[j] =
+
+    # if( nombre in reglas ):
+    #     lista = reglas[nombre]
+    #     for i in lista:
+    #         n = len(i)
+    #         for j in range(n):
+    #             if tupla[j] != False and tupla[j] == :
+    #                 tupla[j] = 
 
         
 
